@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Drive</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/@smash-sdk/uploader/dist/SmashUploader.browser.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Meu Drive</h1>
+
+    <input id="uploadInput" type="file" multiple />
+    <button onclick="upload()">Enviar Arquivo(s)</button>
+
+    <p id="messageArea"></p>
+
+    <ul id="fileList"></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
